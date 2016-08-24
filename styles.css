@@ -1,0 +1,39 @@
+/* simple tag selector */
+p {
+    color: lightslategrey;
+}
+
+/* complex tag selector */
+/* css for a span appearing inside a p */
+p span {
+ color: red;
+}
+
+/* class selector */
+.heniu {
+    color: #d3a37a;
+}
+
+.dan {
+    color:blue;
+}
+
+/* multi class selector */
+/* applies to any tag with both these classes */
+
+.heniu.dan {
+    color:darkgreen;
+}
+
+/* this applies to all which has dan and heniu or heniu and dan classes applies */
+/* tag select and dan class and heniu class */
+
+p .dan.heniu {
+    color: #e82c74;
+}
+
+/* specific item selector */
+#myPara {
+    color:blueviolet
+}
+
